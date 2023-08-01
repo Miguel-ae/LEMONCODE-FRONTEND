@@ -1,0 +1,36 @@
+@import "mixins";
+
+* {
+    @include eraseScroll();
+    font-size: 12px;
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-rows: repeat(3, 70px);
+    gap: 0.5em;
+}
+
+
+.container-1, .container-2, .container-3{
+    display: grid;
+    grid-template-columns: repeat(9, auto);
+    gap: 0.5em;
+    justify-content: center;
+}
+
+
+.container-1{
+    @include generateColors(red);
+}
+
+.container-2{
+    @include generateColors(blue);
+}
+
+.container-3{
+    @include generateColors(green);
+}
