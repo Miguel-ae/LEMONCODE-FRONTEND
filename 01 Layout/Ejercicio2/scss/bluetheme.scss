@@ -1,0 +1,33 @@
+//Tema Azul
+.box {
+    font-family: Calibri;
+    font-weight: bold;
+    background-color: blue;
+    border: black solid 1px;
+    padding: 10px;
+    border-radius: 5px;
+
+    &.important{
+        background-color: darken(blue, 30);
+    }
+
+    &.warning{
+        background-color: lighten(blue, 30);
+    }
+
+    &.shadow{
+        background-color: white;
+        box-shadow: 10px 10px 5px 0px black;
+    }
+}
+
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+

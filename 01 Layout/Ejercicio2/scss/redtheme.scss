@@ -1,0 +1,32 @@
+//Tema Rojo
+.box {
+    font-family: Calibri;
+    font-weight: bold;
+    background-color: red;
+    border: black solid 1px;
+    padding: 10px;
+    border-radius: 0px;
+
+    &.important{
+        background-color: darken(red, 30);
+    }
+
+    &.warning{
+        background-color: lighten(red, 30);
+    }
+
+    &.shadow{
+        background-color: white;
+        box-shadow: -10px 10px 5px 0px black;
+    }
+}
+
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+

@@ -1,0 +1,28 @@
+@import "redtheme";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+main{
+    padding: 50px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(1, 100px);
+    grid-template-rows: repeat(6, 80px);
+    gap: 10px;
+    width: 100%;
+    place-content: center;
+}
+
+h1, h2{
+    font-size: 15px;
+}
+
+
+
+
+
