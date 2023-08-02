@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 12px;
+  font-family: Verdana;
+  font-weight: bold;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: repeat(3, 70px);
+  gap: 0.5em;
+}
+
+.container-1, .container-2, .container-3 {
+  display: grid;
+  grid-template-columns: repeat(9, auto);
+  gap: 0.5em;
+  justify-content: center;
+}
+
+.container-1 > div {
+  background-color: red;
+  display: flex;
+  height: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  align-items: center;
+}
+.container-1 .darken-1 {
+  background-color: #eb0000;
+}
+.container-1 .darken-2 {
+  background-color: #d60000;
+}
+.container-1 .darken-3 {
+  background-color: #c20000;
+}
+.container-1 .darken-4 {
+  background-color: #ad0000;
+}
+.container-1 .lighten-1 {
+  background-color: #ff1414;
+}
+.container-1 .lighten-2 {
+  background-color: #ff2929;
+}
+.container-1 .lighten-3 {
+  background-color: #ff3d3d;
+}
+.container-1 .lighten-4 {
+  background-color: #ff5252;
+}
+
+.container-2 > div {
+  background-color: blue;
+  display: flex;
+  height: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  align-items: center;
+}
+.container-2 .darken-1 {
+  background-color: #0000eb;
+}
+.container-2 .darken-2 {
+  background-color: #0000d6;
+}
+.container-2 .darken-3 {
+  background-color: #0000c2;
+}
+.container-2 .darken-4 {
+  background-color: #0000ad;
+}
+.container-2 .lighten-1 {
+  background-color: #1414ff;
+}
+.container-2 .lighten-2 {
+  background-color: #2929ff;
+}
+.container-2 .lighten-3 {
+  background-color: #3d3dff;
+}
+.container-2 .lighten-4 {
+  background-color: #5252ff;
+}
+
+.container-3 > div {
+  background-color: green;
+  display: flex;
+  height: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  align-items: center;
+}
+.container-3 .darken-1 {
+  background-color: #006c00;
+}
+.container-3 .darken-2 {
+  background-color: #005700;
+}
+.container-3 .darken-3 {
+  background-color: #004300;
+}
+.container-3 .darken-4 {
+  background-color: #002e00;
+}
+.container-3 .lighten-1 {
+  background-color: #009400;
+}
+.container-3 .lighten-2 {
+  background-color: #00a900;
+}
+.container-3 .lighten-3 {
+  background-color: #00bd00;
+}
+.container-3 .lighten-4 {
+  background-color: #00d200;
+}
+
+/*# sourceMappingURL=main.css.map */

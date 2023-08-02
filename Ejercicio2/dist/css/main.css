@@ -1,0 +1,50 @@
+.box {
+  font-family: Calibri;
+  font-weight: bold;
+  background-color: red;
+  border: black solid 1px;
+  padding: 10px;
+  border-radius: 0px;
+}
+.box.important {
+  background-color: #660000;
+}
+.box.warning {
+  background-color: #ff9999;
+}
+.box.shadow {
+  background-color: white;
+  box-shadow: -10px 10px 5px 0px black;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+main {
+  padding: 50px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(1, 100px);
+  grid-template-rows: repeat(6, 80px);
+  gap: 10px;
+  width: 100%;
+  place-content: center;
+}
+
+h1, h2 {
+  font-size: 15px;
+}
+
+/*# sourceMappingURL=main.css.map */
