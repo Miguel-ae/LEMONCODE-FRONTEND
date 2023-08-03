@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: #44237c
+}
+
+.navbar a{
+    color: white;
+    padding: 12px 44px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: #2a1450;
+}
+
+
+@media screen and (max-width: 600px){
+    .navbar{
+        flex-direction: column;
+    }
+}
