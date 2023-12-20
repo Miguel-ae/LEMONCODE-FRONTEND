@@ -1,0 +1,52 @@
+/*!********************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./styles.scss ***!
+  \********************************************************************************************************/
+* {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+}
+
+body {
+  background-color: #eee;
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+#container {
+  text-align: center;
+}
+
+#img-container {
+  border: 1px solid #b9b9b9;
+  color: #b9b9b9;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+img {
+  width: 300px;
+}
+
+button {
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+#bar {
+  width: 0;
+  height: 20px;
+  background-color: rgba(30, 75, 255, 0.6274509804);
+  transition: width 0.5s ease;
+}
+
+#counter {
+  text-align: center;
+  font-size: 30px;
+  color: black;
+  margin: 0;
+}
