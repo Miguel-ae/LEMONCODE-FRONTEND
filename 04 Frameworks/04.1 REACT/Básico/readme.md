@@ -1,20 +1,28 @@
-## 02 Web Boiler plate
+# Módulo 4 Frameworks - React 
 
-## Summary
 
-In this example there is a webpack boiler plate set up with Typescript support, just in the step before
-to adding React support.
+## Ejercicio mínimo
 
-It is based on the Webpack examples.
+### Continuar el ejercicio básico de aplicación (listado Github)
 
-This example is the only one that doesn't have a step-by-step (if you need guidance, you can go to the
-webpack examples you'll find in this repository).
+### Punto de partida:
 
-Highlights:
+https://github.com/Lemoncode/master-frontend-lemoncode/tree/master/04-frameworks/01-react/04-basico-app/04-detail
 
-- The webpackconfig has the src folder configured, and the loaders to handle typescript.
-- We have babel and typescript configuration files.
-- We do the transpilation using babel.
+### Enunciado
 
-In the following example we will take this as a starting point and we will go step by step adding
-support for React.
+Añadir un input y un botón para filtrar por organización, es decir:
+
+- Se muestra por defecto el listado de miembros de lemoncode.
+- Se muestra un input que por defecto tiene como valor: lemoncode.
+- El usuario puede teclear otro nombre de organizacíon, por ejemplo: microsoft y al pulsar el botón de busqueda te muestra los miembros de dicha organizacíon.
+
+### Pistas
+
+- La URL con la que hacemos el fetch para obtener los miembros tiene el nombre de la organización a lista.
+- Para el filtro puedes usar useState.
+
+### Ideas opcionales
+
+- Añade paginación.
+- Añade material ui.
