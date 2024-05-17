@@ -1,0 +1,48 @@
+{
+  "animals": {
+    "cats": [
+      {
+        "id": 1,
+        "picUrl": "src/assets/img/gatos/Persa Cat.png",
+        "title": "Persa"
+      },
+      {
+        "id": 2,
+        "picUrl": "src/assets/img/gatos/Siames Cat.png",
+        "title": "Siamés"
+      },
+      {
+        "id": 3,
+        "picUrl": "src/assets/img/gatos/Manie Coon Cat.png",
+        "title": "Maine Coon"
+      },
+      {
+        "id": 4,
+        "picUrl": "src/assets/img/gatos/Bengali Cat.png",
+        "title": "Bengalí"
+      }
+    ],
+    "dogs": [
+      {
+        "id": 5,
+        "picUrl": "src/assets/img/perros/Labrador Dog.png",
+        "title": "Labrador Retriever"
+      },
+      {
+        "id": 6,
+        "picUrl": "src/assets/img/perros/Border Collie Dog.png",
+        "title": "Border Collie"
+      },
+      {
+        "id": 7,
+        "picUrl": "src/assets/img/perros/Golden Retriever Dog.png",
+        "title": "Golden Retriever"
+      },
+      {
+        "id": 8,
+        "picUrl": "src/assets/img/perros/Husky Siberian Dog.png",
+        "title": "Husky Siberiano"
+      }
+    ]
+  }
+}

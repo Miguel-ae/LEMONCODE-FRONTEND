@@ -1,0 +1,44 @@
+/*Estilos para el Titulo y Logo*/
+.main-title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #7584be;
+}
+
+.main-title:hover {
+  color: #445cbb;
+  transition: 0.3s ease;
+}
+
+.logo {
+  margin-right: 10px;
+}
+
+
+/*Estilos para los botones del tipo de Animal*/
+.button-animal-page {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  margin: 0px 10px;
+}
+
+.button-animal-page:hover {
+  background-color: #fff;
+}
+
+.button-animal-page:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-animal-page {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}

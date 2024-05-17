@@ -1,0 +1,27 @@
+.animals {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.animals > div {
+  flex: 1 1 200px;
+  margin: 20px;
+  transition: 0.4s ease;
+  padding: 12px;
+}
+
+.animals > div:hover {
+  flex: 1 1 200px;
+  margin: 20px;
+  box-shadow: 0 0 0 8px #445cbb6f;
+  transition: 0.4s ease;
+  transform: scale(1.2);
+}
+
+.selected {
+  background-color: #445cbb6f;
+}
+
+.fit-img-230 {
+  height: 230px;
+}

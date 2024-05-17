@@ -1,0 +1,28 @@
+.container-items {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .container-items > div {
+    flex: 1 1 200px;
+    margin: 20px;
+    transition: 0.4s ease;
+    padding: 12px;
+  }
+  
+  .container-items > div:hover {
+    flex: 1 1 200px;
+    margin: 20px;
+    box-shadow: 0 0 0 8px #445cbb6f;
+    transition: 0.4s ease;
+    transform: scale(1.2);
+  }
+  
+  .selected {
+    background-color: #445cbb6f;
+  }
+  
+  .fit-img-230 {
+    height: 230px;
+  }
+  
