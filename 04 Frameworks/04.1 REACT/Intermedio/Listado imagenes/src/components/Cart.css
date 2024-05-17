@@ -1,60 +1,94 @@
 .cart {
-  background: #f0f0f0;
-  display: none;
-  padding: 32px;
   position: fixed;
-  right: 0px;
-  top: 0px;
-  width: 200px;
+  top: 20px;
+  right: 20px;
 }
 
-.cart img {
-  aspect-ratio: 16/9;
-  width: 100%;
-}
-
-.cart li {
-  border-bottom: 1px solid #444;
-  padding-bottom: 16px;
-}
-
-.cart footer {
-  display: flex;
-  gap: 8px;
-  justify-content: center;
-  align-items: center;
-}
-
-.cart footer button {
-  padding: 8px;
-}
-
-.cart-button {
-  background-color: #fff;
-  border: 3px solid #422800;
-  border-radius: 30px;
-  box-shadow: 4px 4px 0 #422800;
-  color: #422800;
+.cart-toggle {
+  background: none;
+  border: none;
   cursor: pointer;
-  display: flex;
-  align-items: center;
-  margin: 5px 10px;
-  height: 32px;
-  width: 32px;
-  padding: 4px;
-  position: absolute;
-  right: 8px;
-  top: 8px;
-  transition: all 0.3 ease;
-  z-index: 9999;
+  font-size: 1.5em;
 }
 
-.cart-button:active {
-  box-shadow: #7584be 2px 2px 0 0;
+.cart-icon {
+  box-shadow: #422800 4px 4px 0 0;
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 50%;
+  padding: 0.3em 0.5em;
+  font-size: 0.8em;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+
+.cart-icon:hover {
+  background-color: #fff;
+}
+
+.cart-icon:active {
+  box-shadow: #422800 2px 2px 0 0;
   transform: translate(2px, 2px);
 }
 
-.cart-button ~ input:checked ~ .cart {
-  height: 100%;
-  display: block;
+.cart-content {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  width: 300px;
+  padding: 10px;
+}
+
+.cart-item {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-column-gap: 10px;
+  align-items: center;
+}
+
+.cart-item-image {
+  width: 80px;
+  height: 80px;
+}
+
+.cart-item-info {
+  grid-column: 2 / 3;
+}
+
+.cart-item-clear {
+  cursor: pointer;
+  color: rgb(188, 8, 8);
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.cart-item-clear:hover {
+  transform: scale(1.3);
+  color: rgb(254, 15, 15);
+}
+
+.cart-item-clearAll {
+  font-weight: bold;
+  background-color: #929497;
+  color: #fff;
+  border-radius: 15px;
+  padding: 10px;
+  cursor: pointer;
+  user-select: none;
+  transition: transform 0.3s ease;
+  margin: 20px 30px 10px 30px;
+}
+
+.cart-item-clearAll:hover {
+  transform: scale(1.05);
+  background-color: #7986b8;
+}
+
+.cart-item-clearAll:active {
+  background-color: #576cbd;
 }
