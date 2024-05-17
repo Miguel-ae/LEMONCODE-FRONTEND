@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import { animals } from "../mocks/animals.json";
 import "./productList.css";
+
 
 interface PictureInfo {
   id: number;
@@ -14,6 +15,7 @@ interface ProductListProps {
   selectedItems: number[];
   setSelectedItems: React.Dispatch<React.SetStateAction<number[]>>;
 }
+
 
 export const ProductListCats: React.FC<ProductListProps> = ({
   allProducts,

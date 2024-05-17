@@ -1,11 +1,18 @@
 import { useState } from "react";
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Header } from "./components/Header";
 import { Buttons } from "./components/Buttons";
 import { ProductListCats, ProductListDogs } from "./components/ProductList";
 import { Cart } from "./components/Cart";
 
 const App: React.FC = () => {
+
+  interface PictureInfo {
+    id: number;
+    picUrl: string;
+    title: string;
+  }
+
   const [allProducts, setAllProducts] = useState<PictureInfo[]>([]);
   const [selectedItems, setSelectedItems] = useState<number[]>([]);
 
@@ -15,6 +22,10 @@ const App: React.FC = () => {
         <Header />
         <Buttons />
         <Routes>
+          <Route 
+          path="/"
+          element={<h3>Seleccione categoria</h3>}
+          />
           <Route
             path="/cats"
             element={
